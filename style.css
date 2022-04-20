@@ -780,14 +780,18 @@ h4 {
     font-weight: 700 !important;
 }
 
+.black{
+    color: black !important;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -1050,7 +1054,6 @@ h4 {
 
 
 .img-responsive{
-    display: inline;
     width: 100%;
 }
 
@@ -1064,4 +1067,15 @@ h4 {
 
 .blanc{
     color: #FFFFFF !important;
+}
+
+.relative{
+    position: relative;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 1024px) {
+    .row-social{
+        display: flex;
+        justify-content: space-around;
+    }
 }
